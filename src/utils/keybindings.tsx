@@ -50,7 +50,13 @@ export const keybindings = (
   }
    else if (e.key === "Tab") {
     e.preventDefault();
-    if (currentCommand.toLowerCase().startsWith("so")) {
+    if (currentCommand.toLowerCase().startsWith("comp") || currentCommand.toLowerCase().startsWith("co")) {
+      setCurrentCommand("competitive-programming");
+    } else if (currentCommand.toLowerCase().startsWith("ed")) {
+      setCurrentCommand("education");
+    } else if (currentCommand.toLowerCase().startsWith("ac")) {
+      setCurrentCommand("achievements");
+    } else if (currentCommand.toLowerCase().startsWith("so")) {
       setCurrentCommand("socials");
     } else if (currentCommand.toLowerCase().startsWith("sk")) {
       setCurrentCommand("skills");

@@ -29,7 +29,7 @@ const Command: React.FC = () => {
         {command.map((item, index) => (
           <div key={index}>
             <div className="flex flex-row mb-0.5">
-              <div className="text-teal-500 font-bold">visitor@jerry~$</div>
+              <div className="text-teal-500 font-bold">visitor@rohan~$</div>
               <div className="ml-2 font-mono text-[#c9d1d9]">
                 {item.command}
               </div>
@@ -40,7 +40,7 @@ const Command: React.FC = () => {
           </div>
         ))}
         <div className="flex flex-row relative">
-          <div className="text-teal-500 font-bold">visitor@jerry~$</div>
+          <div className="text-teal-500 font-bold">visitor@rohan~$</div>
           <div className="relative flex-1">
             <input
               className="bg-transparent outline-none border-none font-mono ml-2 text-[#c9d1d9] w-full caret-transparent"
