@@ -3,12 +3,8 @@ import React from "react";
 import {
   FaBrain,
   FaCode,
-  FaFire,
   FaGithub,
   FaGlobe,
-  FaLightbulb,
-  FaNpm,
-  FaRocket,
   FaVideo
 } from "react-icons/fa";
 
